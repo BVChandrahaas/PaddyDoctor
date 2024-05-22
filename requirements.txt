@@ -1,0 +1,7 @@
+keras==3.2.1
+tensorflow==2.16.0
+imbalanced-learn==0.10.1
+scikit-learn==1.2.2
+numpy==1.25.0
+pandas==2.0.1
+python==3.12.0
