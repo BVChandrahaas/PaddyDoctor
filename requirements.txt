@@ -1,7 +1,27 @@
-keras==3.2.1
-tensorflow==2.16.0
-imbalanced-learn==0.10.1
-scikit-learn~=1.5.0
-numpy==1.25.0
+# -------------------------------------------------------
+# Python version required: 3.10.x  (NOT 3.11 / 3.12)
+# CUDA 11.2 + cuDNN 8.1 must be installed on the host
+# tensorflow-gpu 2.10.1 = last native Windows GPU build
+# -------------------------------------------------------
+
+# Core ML / Deep Learning
+# tensorflow-gpu==2.10.1
+keras==2.10.0
+
+# Numerical / Data
+numpy==1.23.5
 pandas==2.0.1
-python==3.12.0
+
+# ML utilities
+scikit-learn==1.5.0
+imbalanced-learn==0.12.4
+
+# Model persistence
+h5py==3.9.0
+
+# Experiment tracking (optional – remove if not used)
+wandb
+
+# Notebook / Dev (optional – remove if running scripts only)
+ipykernel
+ipython
